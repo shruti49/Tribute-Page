@@ -1,125 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Satisfy&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="app.css" />
+    <title>Tribute to Mother Teresa</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-
-    <title>Tributr to Mother Teresa</title>
-</head>
-
-<body>
-    <main>
-        <h1>Mother Teresa</h1>
-        <p class="quote">Peace begins with a smile.</p>
-        <div id="div1">
-            <img src="https://www.biography.com/.image/t_share/MTE1ODA0OTcxODAxNTQ0MjA1/mother-teresa-9504160-1-402.jpg" alt="mt" class="image">
+  <body>
+    <div id="main" class="container">
+      <header>
+        <h1 id="title" class="header-text">Mother Teresa</h1>
+        <div id="img-div" class="header-img">
+          <em><p id="img-caption">Peace begins with a smile.</p></em>
+          <img src="mt.jpg" alt="mt" id="image" />
         </div>
-        <div id="div2">
-            <h2>Here's a time line of Mother Teresa's life:</h2>
-            <ul>
-                <li>
-                    <h4>1910 - Mother Teresa was born</h4>
-                    <p class="describe">Mother Teresa was born in Macedonia. She was named Agnes, and she later changed her name to Teresa.</p>
-                </li>
+      </header>
 
-                <li>
-                    <h4 class="heading">1928 - Agnes becomes a nun </h4>
-                    <p class="describe">At the age of 18, Agnes decided to dedicate herself to God's work. She became a nun and changed her name
-                        to Teresa.</p>
-                </li>
+      <section id="tribute-info" class="about">
+        <h2>Here's a time line of Mother Teresa's life:</h2>
+        <ul>
+          <li>
+            <h4 class="heading">1910 - Mother Teresa was born</h4>
+            <p class="description">
+              Mother Teresa was born in Macedonia. She was named Agnes, and she
+              later changed her name to Teresa.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1931 - Sister Teresa becomes a teacher</h4>
-                    <p class="describe">Teresa was called Sister Teresa when she first began working at St. Mary's High School in Calcutta, India.</p>
-                </li>
+          <li>
+            <h4 class="heading">1928 - Agnes becomes a nun</h4>
+            <p class="description">
+              At the age of 18, Agnes decided to dedicate herself to God's work.
+              She became a nun and changed her name to Teresa.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1937 - Sister Teresa is named Mother Teresa </h4>
-                    <p class="describe">She became Mother Teresa when she made her Profession of the Vows. She promised to be the "Spouse of
-                        Jesus for eternity".</p>
-                </li>
+          <li>
+            <h4 class="heading">1931 - Sister Teresa becomes a teacher</h4>
+            <p class="description">
+              Teresa was called Sister Teresa when she first began working at
+              St. Mary's High School in Calcutta, India.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1944 - She is promoted </h4>
-                    <p class="describe">In 1944 Mother Teresa became the principal of St. Mary's.</p>
-                </li>
+          <li>
+            <h4 class="heading">1937 - Sister Teresa is named Mother Teresa</h4>
+            <p class="description">
+              She became Mother Teresa when she made her Profession of the Vows.
+              She promised to be the "Spouse of Jesus for eternity".
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1948 - Mother Teresa moves on </h4>
-                    <p class="describe">After seeing the poor people on the streets outside of St. Mary's, Mother Teresa asked the church leaders
-                        if she could help them. She left the school so she could minister to the poor of Calcutta.</p>
-                </li>
+          <li>
+            <h4 class="heading">1944 - She is promoted</h4>
+            <p class="description">
+              In 1944 Mother Teresa became the principal of St. Mary's.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1957 - Mother Teresa opens an orphanage </h4>
-                    <p class="describe">Mother Teresa had a heart for the destitute, and especially for children. This led her to open her first
-                        orphanage in India.</p>
-                </li>
+          <li>
+            <h4 class="heading">1948 - Mother Teresa moves on</h4>
+            <p class="description">
+              After seeing the poor people on the streets outside of St. Mary's,
+              Mother Teresa asked the church leaders if she could help them. She
+              left the school so she could minister to the poor of Calcutta.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1969 - Mother Teresa establishes Missionaries of Charities</h4>
-                    <p class="describe">Mother Teresa had a heart for the destitute, and especially for children. This led her to open her first
-                        orphanage in India.</p>
-                </li>
+          <li>
+            <h4 class="heading">1957 - Mother Teresa opens an orphanage</h4>
+            <p class="description">
+              Mother Teresa had a heart for the destitute, and especially for
+              children. This led her to open her first orphanage in India.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1979 - She is awarded great honors </h4>
-                    <p class="describe">Mother Teresa was awarded many honors for her works, included the Nobel Peace Prize in 1979. Other awards
-                        were the Medal of Freedom and the Order of Merit from Queen Elizabeth.</p>
-                </li>
+          <li>
+            <h4 class="heading">
+              1969 - Mother Teresa establishes Missionaries of Charities
+            </h4>
+            <p class="description">
+              Mother Teresa had a heart for the destitute, and especially for
+              children. This led her to open her first orphanage in India.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1980 - Mother Teresa the home builder </h4>
-                    <p class="describe">Mother Teresa established homes for people who had no place to live. She used the donations of people
-                        from around the world to pay for the homes.</p>
-                </li>
+          <li>
+            <h4 class="heading">1979 - She is awarded great honors</h4>
+            <p class="description">
+              Mother Teresa was awarded many honors for her works, included the
+              Nobel Peace Prize in 1979. Other awards were the Medal of Freedom
+              and the Order of Merit from Queen Elizabeth.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1985 - A center for AIDS </h4>
-                    <p class="describe">One of Mother Teresa's most notable works was the establishment of a center for people with AIDS.</p>
-                </li>
+          <li>
+            <h4 class="heading">1980 - Mother Teresa the home builder</h4>
+            <p class="description">
+              Mother Teresa established homes for people who had no place to
+              live. She used the donations of people from around the world to
+              pay for the homes.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1990 - Her reach expands around the world </h4>
-                    <p class="describe">Other missionaries flocked to work with Mother Teresa. Soon she had missionaries continuing her work
-                        in over 40 countries.</p>
-                </li>
+          <li>
+            <h4 class="heading">1985 - A center for AIDS</h4>
+            <p class="description">
+              One of Mother Teresa's most notable works was the establishment of
+              a center for people with AIDS.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1997 - Mother Teresa's health declines </h4>
-                    <p class="describe">Mother Teresa continued her work even as she grew older and frail. By this time she had over 4000 workers
-                        in over 120 countries.</p>
-                </li>
+          <li>
+            <h4 class="heading">1990 - Her reach expands around the world</h4>
+            <p class="description">
+              Other missionaries flocked to work with Mother Teresa. Soon she
+              had missionaries continuing her work in over 40 countries.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">2003 - Mother Teresa is named a saint </h4>
-                    <p class="describe">Mother Teresa returned to Calcutta, India, for the last few weeks of her life. The world mourned for
-                        her when she passed.</p>
-                </li>
+          <li>
+            <h4 class="heading">1997 - Mother Teresa's health declines</h4>
+            <p class="description">
+              Mother Teresa continued her work even as she grew older and frail.
+              By this time she had over 4000 workers in over 120 countries.
+            </p>
+          </li>
 
-                <li>
-                    <h4 class="heading">1997 - Mother Teresa dies</h4>
-                    <p class="describe">Pope John Paul II began the process of Mother Teresa's beatification, which named her a saint. Her legend
-                        still lives, and she will forever be remembered for her acts of extreme love and kindness.</p>
-                </li>
-            </ul>
+          <li>
+            <h4 class="heading">2003 - Mother Teresa is named a saint</h4>
+            <p class="description">
+              Mother Teresa returned to Calcutta, India, for the last few weeks
+              of her life. The world mourned for her when she passed.
+            </p>
+          </li>
 
-            <div id="div3">
-                <p id="peoplethought">“She will continue to live on in the hearts of all those who have been touched by her selfless love.”
-                </p>
-                <p id="quotedby">– Queen Elizabeth II, 1997</p>
-                <p id="extLink">Want to know more about her then click here
-                    <a href="https://en.wikipedia.org/wiki/Mother_Teresa">Wikipedia entry.</a>
-                </p>
-            </div>
-        </div>
-    </main>
-</body>
+          <li>
+            <h4 class="heading">1997 - Mother Teresa dies</h4>
+            <p class="description">
+              Pope John Paul II began the process of Mother Teresa's
+              beatification, which named her a saint. Her legend still lives,
+              and she will forever be remembered for her acts of extreme love
+              and kindness.
+            </p>
+          </li>
+        </ul>
+      </section>
 
+      <section class="quotation">
+        <em><p class="quote">“She will continue to live on in the hearts of all those who have
+            been touched by her selfless love.”
+          </p></em>
+        <p id="quotedby">– Queen Elizabeth II, 1997</p>
+      </section>
+
+      <footer>
+        <p id="extLink">
+          Want to know more
+          <a
+            href="https://en.wikipedia.org/wiki/Mother_Teresa"
+            target="_blank"
+            id="tribute-link"
+            >Click</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
